@@ -1,0 +1,37 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects) artifacts
+*.o
+*.a
+*.so
+
+# Packaging artifacts
+*.egg
+*.egg-info
+*.eggs
+*.gz
+*.deb
+*.changes
+*.dsc
+*.upload
+dist
+build/
+eggs
+sdist
+MANIFEST
+
+# Unit test artifacts
+.coverage
+.tox
+nosetests.xml
+
+# Runtime artifacts
+*.py[cod]
+__pycache__
+
+# Development artifacts
+venv
+*.swp
+*.tmp
+*.bak
+
+# Profiling artifacts
+callgrind*
